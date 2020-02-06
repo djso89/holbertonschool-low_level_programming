@@ -1,8 +1,7 @@
 #include <stdio.h>
-/*
+/**
 * main - Entry Point
-* Description:  A column of asterisks on the left side,
-* with beginning and ending almost-blank lines.
+* Description: puts characters in print)?
 * Return: Always 0 (Success)
 */
 int main(void)
