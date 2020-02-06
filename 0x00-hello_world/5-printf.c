@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- *
- *
- *
- */
-int main()
+* main - Entry Point
+* Description: print out the strings using printf)?
+* Return: Always 0 (Success)
+*/
+int main(void)
 {
-  return (0);
+printf("with proper grammar, but the outcome is a piece of a art,\n");
+return (0);
 }
