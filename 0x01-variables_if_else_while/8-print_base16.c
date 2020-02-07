@@ -17,8 +17,8 @@ while (hx <= '9')
 putchar(hx);
 hx++;
 }
-hx ='a';
-while (hx <='f')
+hx = 'a';
+while (hx <= 'f')
 {
 putchar(hx);
 hx++;
