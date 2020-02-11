@@ -1,23 +1,22 @@
 #include <unistd.h>
 /**
-* islapha function
-* @c: The charater to determine
-*
-* Return: 1 if c is a letter, lowercase or uppercase
-*        0 otherwise
+* _isalpha - function
+* Description: Checks whether character is letter, lowercase, or uppercase
+* @c: takes the character
+* Return: On Success: 1 for letter, 0 for not letter
 */
 int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
-		return 1;
+		return (1);
 	}
-        if (c >= 'A' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
-		return 1;
+		return (1);
 	}
 	else
 	{
-		return 0;
+		return (0);
 	}
 }
