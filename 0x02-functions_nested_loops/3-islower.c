@@ -1,19 +1,18 @@
 #include <unistd.h>
 /**
-* _putchar - writes the character c to stdout
-* @c: The character to print
-*
-* Return: on 1 - lowercase 0 - uppercase
-* On error, -1 is returned, and errno is set appropriately
+* _islower - Function
+* Description: anything
+* @c: takes the character
+* Return: 1 is lowercase, 0 is not lowercase
 */
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
-		return 1;
+		return (1);
 	}
 	else
 	{
-		return 0;
+		return (0);
 	}
 }
