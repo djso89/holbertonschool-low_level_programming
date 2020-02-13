@@ -1,0 +1,47 @@
+#include "holberton.h"
+/**
+* print_times_table - function
+* Description: print out multiplication table by n x n
+* Return: none
+*/
+void times_table(int n)
+{
+	int a;
+	int b;
+	int m;
+
+	for (a = 0; a <= 9; a++)
+	{
+		for (b = 0; b <= 9; b++)
+		{
+			m = a * b;
+			if (m <= n)
+			{
+				_putchar('0' + m);
+			}
+			if (m >= 10)
+			{
+				_putchar('0' + m / 10);
+				_putchar('0' + m % 10);
+			}
+			if (b == n)
+			{
+				_putchar ('\n');
+			}
+			else
+			{
+				if ((a * (b + 1)) <= n)//9)
+				{
+					_putchar (',');
+					_putchar (' ');
+					_putchar (' ');
+				}
+				else
+				{
+					_putchar (',');
+					_putchar (' ');
+				}
+			}
+		}
+	}
+}
