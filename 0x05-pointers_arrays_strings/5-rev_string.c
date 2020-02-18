@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdlib.h>
 /**
 * rev_string - function
 * Description: reverse the string
@@ -12,8 +11,7 @@ void rev_string(char *s)
 	char *start;
 	char *end;
 	char temp;
-	if (s == NULL)
-		return;
+
 	start = s;
 	/*get the string length*/
 	while (*(s + numchar) != '\0')
