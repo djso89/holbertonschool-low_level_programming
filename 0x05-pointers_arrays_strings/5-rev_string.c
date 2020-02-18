@@ -13,6 +13,7 @@ void rev_string(char *s)
 	char temp;
 
 	start = s;
+	numchar = 0;
 	/*get the string length*/
 	while (*(s + numchar) != '\0')
 	{
