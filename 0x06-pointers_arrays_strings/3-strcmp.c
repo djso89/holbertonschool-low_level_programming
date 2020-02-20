@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
 * _strcmp - function
-* Description: copy source char pointer to dest char up to n characters
+* Description: compare the two string
 * @s1: target char pointer
 * @s2: another char pointer to compare
-* Return: char pointer
+* Return: 0 if s1 s2 are same; if not same, then return ascii diff of s1 and s2
 */
 int _strcmp(char *s1, char *s2)
 {
