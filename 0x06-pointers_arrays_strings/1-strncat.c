@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 * _strncat - function
-* Description: print n elements of an array of integer
+* Description: append src to dest upto n characters
 * @dest: target char pointer
 * @src: source char pointer
 * @n: append src up to n characters
