@@ -7,17 +7,22 @@
 */
 void print_number(int n)
 {
+	unsigned int k;
 	/*check if n is negative*/
 	if (n < 0)
 	{
 		_putchar('-');
-		n = -n;
+		k = -n;
+	}
+	else
+	{
+		k = n;
 	}
 	/*remove the last digit*/
-	if (n / 10 > 0)
+	if (k / 10 > 0)
 	{
-		print_number(n / 10);
+		print_number(k / 10);
 	}
 	/*print the last digit*/
-	_putchar(n % 10 + '0');
+	_putchar(k % 10 + '0');
 }
