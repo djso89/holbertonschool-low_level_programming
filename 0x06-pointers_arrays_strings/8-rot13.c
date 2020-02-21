@@ -21,6 +21,7 @@ char *rot13(char *str)
 			if (*str == letters[i])
 			{
 				*str = zeta[i];
+				break;
 			}
 		}
 		str++;
