@@ -10,12 +10,10 @@ char *leet(char *str)
 	char *s;
 	int i;
 
-	s = str;
-	i = 0;
-
 	char *letters = "aeotl";
 	char *nums = "43071";
 
+	s = str;
 	while (*str)
 	{
 		for (i = 0; letters[i]; i++)
