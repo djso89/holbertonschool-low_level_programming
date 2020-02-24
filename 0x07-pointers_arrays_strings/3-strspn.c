@@ -28,12 +28,13 @@ char *_strchr(char *s, char c)
 */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, cnt;
+	int cnt;
 
 	cnt = 0;
-	while (*s && _strchr(accept, *(s++)))
+	while (*s && _strchr(accept, *(s)))
 	{
 		cnt++;
+		s++;
 	}
 	return (cnt);
 }
