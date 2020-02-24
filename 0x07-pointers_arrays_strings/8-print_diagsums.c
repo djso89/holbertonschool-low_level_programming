@@ -10,14 +10,15 @@
 void print_diagsums(int *a, int size)
 {
 	int f_diag, s_diag;
+	int i, j;
 
 	f_diag = 0;
 	s_diag = 0;
-	for (int i = 0; i < (size) * size ; i += (size + 1))
+	for (i = 0; i < (size) * size ; i += (size + 1))
 	{
 		f_diag = f_diag + a[i];
 	}
-	for (int j = size - 1; j <= (size * size - size); j += (size - 1))
+	for (j = size - 1; j <= (size * size - size); j += (size - 1))
 	{
 		s_diag = s_diag + a[j];
 	}
