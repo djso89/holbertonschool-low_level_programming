@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - Entry Point
-* Description: a program that prints the number of arguments passed into it.
+* Description: a program that prints all the arguments it receives
 * @argc: Number of arguments
 * @argv: argument in string format
 * Return: Always 0 (Success)
