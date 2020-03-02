@@ -3,9 +3,10 @@
 /**
 * main - Entry Point
 * Description: a program that prints the minimum number of coins to make change
+* @argc: Number of arguments
+* @argv: argument in string format
 * Return: Always 0 (Success)
 */
-
 int main(int argc, char *argv[])
 {
 	int numcoins;
@@ -33,7 +34,7 @@ int main(int argc, char *argv[])
 		numcoins++;
 		change -= 5;
 	}
-	while(change / 2 > 0)
+	while (change / 2 > 0)
 	{
 		numcoins++;
 		change -= 2;
