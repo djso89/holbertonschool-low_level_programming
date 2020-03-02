@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <ctype.h>
 #include <stdlib.h>
 #include "holberton.h"
+
+int isInt(char *);
+
 /**
 * main - Entry Point
 * Description: a program that prints all the arguments it receives
@@ -29,4 +33,18 @@ int main(int argc, char *argv[])
 	printf("%d\n", sum);
 	return (0);
 }
+/**
+ * isInt - function
+ * Description: a function that determines if string is number or not
+ * @num: string to determine
+ * Return: 1 is num string is integer otherwise 0
+ */
+int isInt(char *num)
+{
+	if (!*num || isspace(*num))
+		return (0);
+	char *temp;
 
+	strtod(num, &temp);
+	return (!*temp);
+}
