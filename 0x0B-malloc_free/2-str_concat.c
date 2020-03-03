@@ -42,9 +42,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		str[i] = s1[i];
 	}
-	for (j = 0; s2[j]; j++)
+	for (j = 0; s2[j]; j++, i++)
 	{
-		str[j + i] = s2[j];
+		str[i] = s2[j];
 	}
 	return (str);
 }
