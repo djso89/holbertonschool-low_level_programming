@@ -18,7 +18,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 	/*memory allocation in height*/
-	grid = (int **)malloc(height * sizeof(int *));
+	grid = malloc(height * sizeof(int *));
 	/*check if malloc on grid failed in height direction*/
 	if (grid == NULL)
 	{
@@ -27,7 +27,7 @@ int **alloc_grid(int width, int height)
 	/*memory allocation in width*/
 	for (i = 0; i < width; i++)
 	{
-		grid[i] = (int *)malloc(width * sizeof(int));
+		grid[i] = malloc(width * sizeof(int));
 		/*check if malloc on grid failed in width direction*/
 		if (grid[i] == NULL)
 		{
