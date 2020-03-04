@@ -64,7 +64,7 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i < ac; i++)
 	{
 		/*add all the length together and add one more for newline*/
-		total_len = total_len + _strlen(av[i]) + 1;
+		total_len = total_len + _strlen(av[i]);
 	}
 	/*memory allocate the str*/
 	str = malloc(total_len * sizeof(char));
