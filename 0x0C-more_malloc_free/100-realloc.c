@@ -23,12 +23,12 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (NULL);
 	}
 	ret_ptr = malloc(sizeof(char) * new_size);
-	if (ret_ptr)
+	if (ret_ptr == NULL)
 	{
-		if (ret_ptr == NULL)
-		{
-			return (NULL);
-		}
+		return (NULL);
+	}
+	else
+	{
 		for (i = 0; i < old_size; i++)
 		{
 			ret_ptr[i] = *((char *)ptr + i);
