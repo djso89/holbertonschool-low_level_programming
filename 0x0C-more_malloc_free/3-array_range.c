@@ -19,7 +19,7 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 	/*count the number of elements*/
-	elements = max - min;
+	elements = (max - min) + 1;
 	/*allocate the memeory in a_rng*/
 	a_rng = malloc(elements * sizeof(int));
 	if (a_rng == NULL)
