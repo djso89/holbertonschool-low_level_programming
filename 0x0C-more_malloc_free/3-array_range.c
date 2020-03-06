@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "holberton.h"
 /**
-* _array_range - function
+* array_range - function
 * Description: a function that allocates memory for an array using malloc
 * The memory is set to zero
 * @min: minimum number you want to start print from.
@@ -26,7 +26,7 @@ int *array_range(int min, int max)
 	{
 		return (NULL);
 	}
-	for (i =0; i < elements; i++)
+	for (i = 0; i < elements; i++)
 	{
 		if (min <= max)
 		{
