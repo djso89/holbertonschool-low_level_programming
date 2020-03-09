@@ -135,3 +135,49 @@
         printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
         return (0);
     }
+## 4. A door is what a dog is perpetually on the wrong side of ##
+
+> A function that creates a new dog. The function returns NULL if it fails
+
+*Test Program: 4-main.c*
+
+    #include <stdio.h>
+    #include "dog.h"
+
+    /**
+     * main - check the code for Holberton School students.
+     *
+     * Return: Always 0.
+     */
+    int main(void)
+    {
+        dog_t *my_dog;
+
+        my_dog = new_dog("Django", 3.5, "Jay");
+        printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog->name, my_dog->age);
+        return (0);
+    }
+## 5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg ##
+
+> A function that frees dogs
+*Test Program: 5-main.c*
+
+    #include <stdio.h>
+    #include "dog.h"
+
+    /**
+     * main - check the code for Holberton School students.
+     *
+     * Return: Always 0.
+     */
+    int main(void)
+    {
+        dog_t *my_dog;
+
+        my_dog = new_dog("Django", 3.5, "Jay");
+        printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog->name, my_dog->age);
+        free_dog(my_dog);
+        return (0);
+    }
+# Author #
+## [Daniel So](http://github.com/djso89) ##
