@@ -4,14 +4,14 @@
 
 *Test Program: 0-main.c*
 
-        #include "0-object_like_macro.h"
-		#include "0-object_like_macro.h"
-		#include <stdio.h>
-		/**
-		* main - check the code for Holberton School students.
-		*
-		* Return: Always 0.
-		*/
+    #include "0-object_like_macro.h"
+	#include "0-object_like_macro.h"
+	#include <stdio.h>
+	/**
+	* main - check the code for Holberton School students.
+	*
+	* Return: Always 0.
+	*/
 		int main(void)
 		{
 		int s;
@@ -43,3 +43,9 @@
         printf("%.3f\n", a);
         return (0);
     }
+
+**2.File name**
+
+> A Program that print the name of the file it was compiled from, followed
+> by a new line.
+
