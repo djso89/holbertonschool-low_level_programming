@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
 {
 	int mult;
 	int i, num1_len, num2_len;
+	
 	num1_len = 0;
 	num2_len = 0;
 	/**
