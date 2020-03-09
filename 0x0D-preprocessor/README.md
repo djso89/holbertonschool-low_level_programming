@@ -1,6 +1,6 @@
-# 0x0D. C - Preprocessor #
+## 0x0D. C - Preprocessor ##
 
-**0. Object-Like Macro**
+# 0. Object-Like Macro #
 
 > The header file that defines macro named SIZE as an abbreviation
 > for the token 1024
@@ -23,7 +23,7 @@
 		return (0);
 		}
 
-**1. PI**
+# 1. PI #
 
 > The header file that defines PI macro as an abbreviation for the token
 > 3.1459265359
@@ -50,12 +50,12 @@
         return (0);
     }
 
-**2.File name**
+# 2.File name #
 
 > A Program that print the name of the file it was compiled from, followed
 > by a new line.
 
-**3.Function-like macro**
+# 3.Function-like macro #
 
 > The header file that contains function-like macro ABS(x). This macro computes
 > the absolute value of a number x.
@@ -81,7 +81,7 @@
         return (0);
     }
 
-**4.SUM**
+# 4.SUM #
 
 > The header file that contains function-like macro SUM(x, y).
 > This macro computes the sum of the numbers x and y
@@ -105,3 +105,6 @@
         printf("%d\n", s);
         return (0);
     }
+
+## Author ##
+[Daniel So](http://github.com/djso89)
