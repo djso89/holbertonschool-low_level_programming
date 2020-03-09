@@ -1,5 +1,6 @@
 # 0x0D. C - Preprocessor #
-## 0. Object-Like Macro ##
+
+* 0. Object-Like Macro
 
 Test Program
 ------------
