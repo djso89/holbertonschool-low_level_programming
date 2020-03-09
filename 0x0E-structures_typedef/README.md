@@ -93,3 +93,45 @@
         return (0);
     }
 
+## 3. Outside of a dog, a book is a man's best friend. Inside of a dog, it's too dark to read ##
+
+> Defining a new type dog_t as a new name for the type struct dog
+
+*Struct dog as dog_t*
+
+    /**
+     * struct dog - Short Description
+     * @name: name of dog in string
+     * @age: age of dog in floating point
+     * @owner: name of the owner in string
+     *
+     * Description: Longer description
+     */
+    struct dog
+    {
+    	char *name;
+    	float age;
+    	char *owner;
+    };
+
+    typedef struct dog dog_t;
+*Test Program: 3-main.c*
+
+    #include <stdio.h>
+    #include "dog.h"
+
+    /**
+     * main - check the code for Holberton School students.
+     *
+     * Return: Always 0.
+     */
+    int main(void)
+    {
+        dog_t my_dog;
+
+        my_dog.name = "Django";
+        my_dog.age = 3.5;
+        my_dog.owner = "Jay";
+        printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
+        return (0);
+    }
