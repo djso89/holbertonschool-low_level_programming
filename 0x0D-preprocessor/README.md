@@ -1,6 +1,6 @@
 # 0x0D. C - Preprocessor #
 ## 0. Object-Like Macro ##
-======================
+
 Test Program
 ------------
     #include "0-object_like_macro.h"
