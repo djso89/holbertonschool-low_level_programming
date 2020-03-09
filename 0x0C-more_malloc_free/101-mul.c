@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 	if (argc <= 2)
 	{
 		printf("Error\n");
+		exit(98);
 	}
 	else
 	{
@@ -28,6 +29,11 @@ int main(int argc, char *argv[])
 		/*do the multiplications starting after the program name*/
 		for (i = 1; i < argc; i++)
 		{
+			if (atoi(argv[i]) >= 2147483647)
+			{
+				printf("Error\n");
+				exit(98);
+			}
 			mult *= atoi(argv[i]);
 		}
 		printf("%d\n", mult);
