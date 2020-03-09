@@ -11,8 +11,9 @@
 int main(int argc, char *argv[])
 {
 	int mult;
-	int i;
-
+	int i, num1_len, num2_len;
+	num1_len = 0;
+	num2_len = 0;
 	/**
 	 * check if there is only one argument.
 	 * 0 index being the name of program
@@ -26,14 +27,22 @@ int main(int argc, char *argv[])
 	else
 	{
 		mult = 1;
+		while (*(argv[1] + num1_len))
+		{
+			num1_len++;
+		}
+		while (*(argv[2] + num2_len))
+		{
+			num2_len++;
+		}
+		if (num1_len >= 10 || num2_len >= 10)
+		{
+			printf("Error\n");
+			exit(98);
+		}
 		/*do the multiplications starting after the program name*/
 		for (i = 1; i < argc; i++)
 		{
-			if (atoi(argv[i]) >= 2147483647)
-			{
-				printf("Error\n");
-				exit(98);
-			}
 			mult *= atoi(argv[i]);
 		}
 		printf("%d\n", mult);
