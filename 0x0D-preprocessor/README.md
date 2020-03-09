@@ -2,6 +2,9 @@
 
 **0. Object-Like Macro**
 
+> The header file that defines macro named SIZE as an abbreviation
+> for the token 1024
+
 *Test Program: 0-main.c*
 
     #include "0-object_like_macro.h"
@@ -21,6 +24,9 @@
 		}
 
 **1. PI**
+
+> The header file that defines PI macro as an abbreviation for the token
+> 3.1459265359
 
 *Test Program: 1-main.c*
 
