@@ -142,6 +142,8 @@
 
 > A function that computes the absolute value of integer
 
+*Test Program: 6-main.c*
+
     #include "holberton.h"
     #include <stdio.h>
 
