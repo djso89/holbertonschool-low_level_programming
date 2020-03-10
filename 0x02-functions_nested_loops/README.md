@@ -137,3 +137,8 @@
     	_putchar('\n');
     	return (0);
     }
+
+## [ 6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you ](./6-abs.c)
+
+> A function that computes the absolute value of integer
+
