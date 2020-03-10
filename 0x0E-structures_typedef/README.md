@@ -1,6 +1,6 @@
 # 0x0E. C - Structures, typedef #
 
-## 0. Django ##
+## [0. Django](./dog.h) ##
 
 > Defining a new type struct dog with the following elements.
 > 1. name, type = char *
@@ -44,7 +44,7 @@
         return (0);
     }
 
-## 1. A dog is the only thing on Earth that loves you more than you love yourself ##
+## [1. A dog is the only thing on Earth that loves you more than you love yourself](./1-init_dog.c) ##
 
 > A function that initialize a variable of type struct dog
 
@@ -67,7 +67,7 @@
         return (0);
     }
 
-## 2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad ##
+## [2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad](./2-print_dog.c) ##
 
 > A function that prints a struct dog
 
@@ -93,7 +93,7 @@
         return (0);
     }
 
-## 3. Outside of a dog, a book is a man's best friend. Inside of a dog, it's too dark to read ##
+## [3. Outside of a dog, a book is a man's best friend. Inside of a dog, it's too dark to read](./dog.h) ##
 
 > Defining a new type dog_t as a new name for the type struct dog
 
@@ -135,7 +135,7 @@
         printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
         return (0);
     }
-## 4. A door is what a dog is perpetually on the wrong side of ##
+## [4. A door is what a dog is perpetually on the wrong side of](./4-new_dog.c) ##
 
 > A function that creates a new dog. The function returns NULL if it fails
 
@@ -157,7 +157,7 @@
         printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog->name, my_dog->age);
         return (0);
     }
-## 5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg ##
+## [5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg](./5-free_dog.c) ##
 
 > A function that frees dogs
 *Test Program: 5-main.c*
