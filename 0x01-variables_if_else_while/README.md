@@ -49,3 +49,22 @@
 
 > A program that prints all possible combinations of single-digit numbers
 
+## [10. 00...99](./10-print_comb2.c)
+
+> A program that prints the numbers from 00 to 99
+
+## [11. Inventing is a combination of brains and materials. The more brains you use, the less material you need](./100-print_comb3.c)
+
+> A program that prints all possible different combinations of two digits
+
+## [12. The success combination in business is: Do what you do better... and: do more of what you do...](./101-print_comb4.c)
+
+> A program that prints all possible different combinations of three digits
+
+## [13. Software is eating the World](./102-print_comb5.c)
+
+> A program that prints all possible combinations of two two-digit
+> numbers
+
+#Author
+*[Daniel So](http://github.com/djso89)*
