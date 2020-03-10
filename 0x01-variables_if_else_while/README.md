@@ -4,3 +4,14 @@
 
 > A program that assign a random number to the variable n each time
 > it is executed. Then, it determines whether n is positive or negative number.
+
+## [1. The last digit](./1-last_digit.c)
+
+> A program that assigns a random number to the variable n
+> each time it is executed. It also prints the last digit of
+> the number stored in the variable n.
+
+## [2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](./2-print_alphabet.c)
+
+> A program that prints the alphabet in lowercase, followed by a new line
+
