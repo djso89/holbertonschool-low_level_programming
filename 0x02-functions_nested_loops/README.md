@@ -212,3 +212,21 @@
         return (0);
     }
 
+## [9. Learn your times table ](./9-times_table.c)
+
+> A function that prints the 9 times tables, starting with 0
+
+*Test Program: 9-main.c*
+
+    #include "holberton.h"
+
+    /**
+     * main - check the code for Holberton School students.
+     *
+     * Return: Always 0.
+     */
+    int main(void)
+    {
+        times_table();
+        return (0);
+    }
