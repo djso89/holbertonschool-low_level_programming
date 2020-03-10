@@ -66,5 +66,5 @@
 > A program that prints all possible combinations of two two-digit
 > numbers
 
-#Author
+# Author
 *[Daniel So](http://github.com/djso89)*
