@@ -20,7 +20,7 @@
 > A program that prints the alphabet in lowercase, and then in uppercase,
 > followed by a new line.
 
-## [4. When I was having that alphabet soup, I never thought that it would pay off](./4-print_alphabet.c)
+## [4. When I was having that alphabet soup, I never thought that it would pay off](./4-print_alphabt.c)
 
 > A program that prints the alpabet in lowercase except q and e, followed by a
 > new line
