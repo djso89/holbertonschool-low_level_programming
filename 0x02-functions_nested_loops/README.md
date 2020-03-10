@@ -192,7 +192,7 @@
         return (0);
     }
 
-## [8. I'm federal agent Jack Bauer, and today is the longest day of my life](./8-24hours.c)
+## [8. I'm federal agent Jack Bauer, and today is the longest day of my life](./8-24_hours.c)
 
 > A function that prints every minute of the day of Jack Bauer, starting from
 > 00:00 to 23:59
