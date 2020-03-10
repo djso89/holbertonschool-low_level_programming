@@ -27,6 +27,8 @@
 
 > A function that prints alphabets in lower case 10 times followed by new line
 
+*Test Program: 2-main.c*
+
     #include "holberton.h"
 
     /**
@@ -43,6 +45,7 @@
 ## [3.islower](./3-islower.c)
 
 > A function that checks for lowercase character
+
 *Test Program: 3-main.c*
 
     #include "holberton.h"
@@ -69,6 +72,8 @@
 ## [4. isalpha](./4-isalpha.c)
 
 > A function that checks for alphabetic character
+
+*Test Program: 4-main.c*
 
     #include "holberton.h"
     /**
@@ -98,6 +103,8 @@
 >   * Returns 1 and prints + if n is greater than zero
 >   * Returns 0 and prints 0 if n is zero
 >   * Returns -1 and prints - if n is less than zero
+
+*Test Program: 5-main.c*
 
     #include "holberton.h"
     /**
