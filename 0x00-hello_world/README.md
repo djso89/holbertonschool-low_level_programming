@@ -32,3 +32,13 @@
 
 > A C program that prints the size of various types on the computer
 > it is compiled and run on
+
+## [7. What happens when you type gcc main.c](https://www.linkedin.com/pulse/what-happens-when-typed-gcc-mainc-daniel-so/?published=t)
+
+> A blog post that explains all the steps of compilation.
+> Command lines are used to demonstrate
+
+## [8. Intel](./100-intel)
+
+> A script that generates the assembly code (intel syntax) of a C code and save it
+> in an output file
