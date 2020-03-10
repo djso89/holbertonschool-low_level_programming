@@ -44,4 +44,4 @@
 > in an output file
 
 # Author
-*[Daniel So](github.com/djso89)
+*[Daniel So](http://github.com/djso89)
