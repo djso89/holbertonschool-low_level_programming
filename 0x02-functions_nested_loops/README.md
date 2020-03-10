@@ -166,3 +166,28 @@
         printf("%d\n", r);
         return (0);
     }
+
+#[7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](./7-print_last_digit.c)
+
+>Write a function that prints the last digit of a number
+
+*Test Program: 7-main.c*
+
+    #include "holberton.h"
+
+    /**
+     * main - check the code for Holberton School students.
+     *
+     * Return: Always 0.
+     */
+    int main(void)
+    {
+        int r;
+
+        print_last_digit(98);
+        print_last_digit(0);
+        r = print_last_digit(-1024);
+        _putchar('0' + r);
+        _putchar('\n');
+        return (0);
+    }
