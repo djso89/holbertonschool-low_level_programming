@@ -138,7 +138,8 @@
     	return (0);
     }
 
-## [ 6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you ](./6-abs.c)
+## [ 6. There is no such thing as absolute value in this world. You can only est
+imate what a thing is worth to you ](./6-abs.c)
 
 > A function that computes the absolute value of integer
 
@@ -167,7 +168,7 @@
         return (0);
     }
 
-#[7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](./7-print_last_digit.c)
+## [7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](./7-print_last_digit.c)
 
 >Write a function that prints the last digit of a number
 
