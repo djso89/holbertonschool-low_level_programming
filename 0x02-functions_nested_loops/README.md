@@ -256,10 +256,29 @@
 
 ## [11. Holberton School, 98 Battery Street, the OG](./11-print_to_98.c)
 
-> a function that prints all natural numbers from n to 98, followed by a new line 
+> A function that prints all natural numbers from n to 98,
+> followed by a new line.
 >    * Numbers must be separated by a comma, followed by a space
 >    * Numbers should be printed in order
 >    * The first printed number should be the number passed to your function
 >    * The last printed number should be 98
 >    * Use of standard library is allowed
 
+*Test Program: 11-main.c*
+
+    #include "holberton.h"
+
+    /**
+     * main - check the code for Holberton School students.
+     *
+     * Return: Always 0.
+     */
+    int main(void)
+    {
+        print_to_98(0);
+        print_to_98(98);
+        print_to_98(111);
+        print_to_98(81);
+        print_to_98(-10);
+        return (0);
+    }
