@@ -1,6 +1,6 @@
 ## 0x0D. C - Preprocessor ##
 
-# 0. Object-Like Macro #
+# [0. Object-Like Macro](./0-object_like_macro.h) #
 
 > The header file that defines macro named SIZE as an abbreviation
 > for the token 1024
