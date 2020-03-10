@@ -50,12 +50,12 @@
         return (0);
     }
 
-# 2.File name #
+# [2.File name](./2-main.c) #
 
 > A Program that print the name of the file it was compiled from, followed
 > by a new line.
 
-# 3.Function-like macro #
+# [3.Function-like macro](./3-function_like_macro.h) #
 
 > The header file that contains function-like macro ABS(x). This macro computes
 > the absolute value of a number x.
@@ -81,7 +81,7 @@
         return (0);
     }
 
-# 4.SUM #
+# [4.SUM](./4-sum.h) #
 
 > The header file that contains function-like macro SUM(x, y).
 > This macro computes the sum of the numbers x and y
