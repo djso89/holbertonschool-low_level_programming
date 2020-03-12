@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	if (get_op_func(argv[2]) == NULL)
 	{
 		printf("Error\n");
-		exit(100);
+		exit(99);
 	}
 	cal_result = get_op_func(argv[2])(atoi(argv[1]), atoi(argv[3]));
 	printf("%d\n", cal_result);
