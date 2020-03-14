@@ -30,6 +30,8 @@
 
 ## [0x0E-structures_typedef](./0x0E-structures_typedef)
 
+## [0x0F-function_pointers](./0x0F-function_pointers)
+
 # Author
 
 **[Daniel So](http://github.com/djso89)**
