@@ -3,7 +3,7 @@
  * print_numbers - function
  * Description: a function that prints numbers followed by newline
  * @separator: string to be printed between numbers
- * @n: starting integer n
+ * @n: number of integers passed to the function
  * Return: Nothing
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
