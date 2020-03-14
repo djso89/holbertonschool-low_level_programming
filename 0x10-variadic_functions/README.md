@@ -3,4 +3,4 @@
 
 > A function that returns the
 > Sum of all its parameters
-> if n == 0, return 0
+  * if n == 0, return 0
