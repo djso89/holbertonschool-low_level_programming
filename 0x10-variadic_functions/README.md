@@ -25,3 +25,14 @@
         	printf("%d\n", sum);
         	return (0);
         }
+
+## [1. To be is to be the value of a variable](./1-print_numbers.c)
+
+> A function that prints numbers followed by new line
+> separator is the string to be printed between numbers
+> and n is the number of integers passed to the function
+> printf is allowed
+> If separator is NULL, don’t print it
+> Print a new line at the end of your function
+
+*Test Code: 1-main.c*
