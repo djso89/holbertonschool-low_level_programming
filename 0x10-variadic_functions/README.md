@@ -74,3 +74,33 @@
         print_strings(", ", 2, "Jay", "Django");
         return (0);
     }
+
+## [ 3. To be is a to be the value of a variable](./3-print_all.c)
+
+> A function that prints anything
+> format is a list of types of arguments passed to the function
+>     c: char
+>     i: integer
+>     f: float
+>     s: char * (if the string is NULL, print (nil) instead
+>     any other char should be ignored
+> for, goto, ternary operator, else, do..while are not allowed 
+>     2 while loops and 2 ifs are maximum allowed
+> maximum of 9 variables
+> printf is permitted
+> Print a new line at the end of your function
+
+*Test Program: 3-main.c*
+
+    #include "variadic_functions.h"
+
+    /**
+     * main - check the code for Holberton School students.
+     *
+     * Return: Always 0.
+     */
+    int main(void)
+    {
+        print_all("ceis", 'H', 0, "lberton");
+        return (0);
+    }
