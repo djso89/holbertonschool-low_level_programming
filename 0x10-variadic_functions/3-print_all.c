@@ -7,20 +7,15 @@
  */
 int is_valid(const char fc)
 {
-	if (fc == 'c')
+	switch (fc)
 	{
+	case 'c':
 		return (1);
-	}
-	if (fc == 's')
-	{
+	case 'i':
 		return (1);
-	}
-	if (fc == 'f')
-	{
+	case 'f':
 		return (1);
-	}
-	if (fc == 'i')
-	{
+	case 's':
 		return (1);
 	}
 	return (0);
