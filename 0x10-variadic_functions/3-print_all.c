@@ -6,7 +6,7 @@
  */
 void print_all(const char * const format, ...)
 {
-	int i;
+	int i, flag;
 	va_list items;
 	char *str;
 
@@ -14,6 +14,7 @@ void print_all(const char * const format, ...)
 	i = 0;
 	while (format && format[i])
 	{
+		flag = 1;
 		switch (format[i])
 		{
 		case 'c':
@@ -31,10 +32,10 @@ void print_all(const char * const format, ...)
 				printf("(nil)");
 			printf("%s", str);
 			break;
+		default:
+			flag = 0;
 		}
-		if ((format[i] == 'c' || format[i] == 's'
-		     || format[i] == 'i' || format[i] == 'f')
-		    && format[i + 1] != '\0')
+		if (flag && format[i + 1] != '\0')
 			printf(", ");
 		i++;
 	}
