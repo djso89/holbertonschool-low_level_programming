@@ -5,7 +5,7 @@
 > sum of all its parameters. if n is 0, the function
 > returns 0.
 
-*Test Code: 0-main.c *
+*Test Code: 0-main.c*
 
         #include <stdio.h>
         #include "variadic_functions.h"
