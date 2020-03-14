@@ -5,6 +5,8 @@
 > Sum of all its parameters
   * if n == 0, return 0
 
+* Test Code: 0-main.c*
+
         #include <stdio.h>
         #include "variadic_functions.h"
 
@@ -23,4 +25,3 @@
         	printf("%d\n", sum);
         	return (0);
         }
-
