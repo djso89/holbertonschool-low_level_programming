@@ -32,6 +32,8 @@
 
 ## [0x0F-function_pointers](./0x0F-function_pointers)
 
+## [0x10-variadic_functions](./0x10-variadic_functions)
+
 # Author
 
 **[Daniel So](http://github.com/djso89)**
