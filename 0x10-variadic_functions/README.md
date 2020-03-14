@@ -2,8 +2,8 @@
 ## [0.Beauty is variable, ugliness is constant](./0-sum_them_all.c)
 
 > A function that returns the
-> Sum of all its parameters
-  * if n == 0, return 0
+> sum of all its parameters. if n is 0, the function
+> returns 0.
 
 * Test Code: 0-main.c*
 
