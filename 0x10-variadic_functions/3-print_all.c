@@ -32,8 +32,8 @@ void print_all(const char * const format, ...)
 			printf("%s", str);
 			break;
 		}
-		if ((formar[i] == 'c' || formar[i] == 's'
-		     || formar[i] == 'i' || formar[i] == 'f')
+		if ((format[i] == 'c' || format[i] == 's'
+		     || format[i] == 'i' || format[i] == 'f')
 		    && format[i + 1] != '\0')
 			printf(", ");
 		i++;
