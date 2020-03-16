@@ -14,7 +14,7 @@ void print_number(int n)
 		_putchar('-');
 		k = -n;
 	}
-	else
+	if (n >= 0)
 	{
 		k = n;
 	}
