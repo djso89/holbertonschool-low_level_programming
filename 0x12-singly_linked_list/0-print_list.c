@@ -7,10 +7,9 @@
  */
 size_t print_list(const list_t *h)
 {
-	int i;
+	int nodes;
 
-
-        for(i = 0; h; i++)
+        for(nodes = 0; h; nodes++)
 	{
 		if (h->str)
 		{
@@ -22,5 +21,5 @@ size_t print_list(const list_t *h)
 		}
 		h = h->next; /*point to next node*/
 	}
-	return (i);
+	return (nodes);
 }
