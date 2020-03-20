@@ -34,6 +34,8 @@
 
 ## [0x10-variadic_functions](./0x10-variadic_functions)
 
+## [0x12-Singly-Linked List](./0x12-singly_linked_lists)
+
 # Author
 
 **[Daniel So](http://github.com/djso89)**
