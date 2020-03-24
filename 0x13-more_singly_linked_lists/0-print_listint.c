@@ -8,6 +8,7 @@
 size_t print_listint(const listint_t *h)
 {
 	unsigned int nodes;
+
 	for (nodes = 0; h; nodes++)
 	{
 		printf("%d\n", h->n);
