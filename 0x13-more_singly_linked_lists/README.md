@@ -39,7 +39,7 @@
         return (0);
     }
 
-##[1. List Length](./1-listint_len.c)
+## [1. List Length](./1-listint_len.c)
 
 > A function that returns the number of elements in a linked listint_t list.
 
