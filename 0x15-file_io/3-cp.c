@@ -80,12 +80,11 @@ int main(int argc, char *argv[])
 
 	while ((rd = read(fd1, content, 1024)) > 0)
 	{
-		check98(rd, file_from);
 		wrt = write(fd2, content, rd);
-		check99(wrt, file_to);
 		if (rd != wrt)
 			check99((-1), file_to);
 	}
+	check98(rd, file_from);
 	cl1 = close(fd1);
 	check100(cl1, fd1);
 	cl2 = close(fd2);
