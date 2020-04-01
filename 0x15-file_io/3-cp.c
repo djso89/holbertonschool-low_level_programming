@@ -18,7 +18,7 @@ void check97(int ac)
  * @file: name of the file
  * Return: Nothing
  */
-void check98(long int filedes, char *file)
+void check98(int filedes, char *file)
 {
 	if (filedes == -1)
 	{
@@ -32,7 +32,7 @@ void check98(long int filedes, char *file)
  * @file: name of the file
  * Return: Nothing
  */
-void check99(long int filedes, char *file)
+void check99(int filedes, char *file)
 {
 	if (filedes == -1)
 	{
@@ -47,11 +47,11 @@ void check99(long int filedes, char *file)
  * @fd: file destination
  * Return: Nothing
  */
-void check100(long int filedes, long int fd)
+void check100(int filedes, int fd)
 {
 	if (filedes == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %ld\n", fd);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 		exit(100);
 	}
 }
@@ -63,10 +63,10 @@ void check100(long int filedes, long int fd)
  */
 int main(int argc, char *argv[])
 {
-	long int fd1, fd2;
+	int fd1, fd2;
 	char *file_from, *file_to;
 	char content[1024];
-	long int rd, wrt, cl1, cl2;
+	int rd, wrt, cl1, cl2;
 
 	check97(argc);
 
