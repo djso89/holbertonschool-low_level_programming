@@ -4,7 +4,7 @@
  * @ac: number of arguments
  * Return: Nothing
  */
-void check97(long int ac)
+void check97(int ac)
 {
 	if (ac != 3)
 	{
@@ -78,14 +78,14 @@ int main(int argc, char *argv[])
 	fd2 = open(file_to, O_CREAT | O_RDWR | O_TRUNC, 0664);
 	check99(fd2, file_to);
 
-	rd = read(fd1, content, 1024);
-	check98(rd, file_from);
-
-	wrt = write(fd2, content, rd);
-	check99(wrt, file_to);
-
-	if (rd != wrt)
-		check99((-1), file_to);
+	while ((rd = read(fd1, content, 1024)) > 0)
+	{
+		check98(rd, file_from);
+		wrt = write(fd2, content, rd);
+		check99(wrt, file_to);
+		if (rd != wrt)
+			check99((-1), file_to);
+	}
 	cl1 = close(fd1);
 	check100(cl1, fd1);
 	cl2 = close(fd2);
