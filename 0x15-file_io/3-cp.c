@@ -78,12 +78,13 @@ int main(int argc, char *argv[])
 	fd2 = open(file_to, O_CREAT | O_RDWR | O_TRUNC, 0664);
 	check99(fd2, file_to);
 
-	while ((rd = read(fd1, content, 1024)) > 0)
-	{
+	do {
+		rd = read(fd1, content, 1024);
+		check98(fd1, file_from);
 		wrt = write(fd2, content, rd);
-		if (rd != wrt)
-			check99((-1), file_to);
-	}
+		if (wrt == -1 || rd != wrt)
+			check99(wrt, file_to);
+	} while (rd == 1024);
 	check98(rd, file_from);
 	cl1 = close(fd1);
 	check100(cl1, fd1);
