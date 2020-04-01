@@ -83,7 +83,7 @@ int main(int argc, char *argv[])
 		check98(fd1, file_from);
 		wrt = write(fd2, content, rd);
 		if (wrt == -1 || rd != wrt)
-			check99(wrt, file_to);
+			check99((-1), file_to);
 	} while (rd == 1024);
 	check98(rd, file_from);
 	cl1 = close(fd1);
