@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
 
 	file_to = argv[2];
 	fd2 = open(file_to, O_CREAT | O_RDWR | O_TRUNC, 0664);
-	check98(fd2, file_to);
+	check99(fd2, file_to);
 
 	rd = read(fd1, content, 1024);
 	check98(rd, file_from);
