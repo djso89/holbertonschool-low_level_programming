@@ -7,7 +7,7 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	unsigned int num_nodes;
+	size_t num_nodes;
 	/*move the header all the way down to first*/
 	while (h->prev)
 	{
