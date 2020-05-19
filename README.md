@@ -44,6 +44,8 @@
 
 ## [0x15-file_io](./0x15-file_io)
 
+## [0x16-simple shell](http://github.com/djso89/simple_shell)
+
 ## [0x17-doubly_linked_lists](./0x17-doubly_linked_lists)
 
 ## [0x18-dynamic_libraries](./0x18-dynamic_libraries)
