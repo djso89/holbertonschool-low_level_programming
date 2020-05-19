@@ -34,7 +34,7 @@
 
 ## [0x10-variadic_functions](./0x10-variadic_functions)
 
-## [0x11-printf](././printf)
+## [0x11-printf](http://github.com/djso89/printf)
 
 ## [0x12-Singly-Linked List](./0x12-singly_linked_lists)
 
