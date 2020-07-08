@@ -5,7 +5,7 @@ NAME=holberton
 RM=rm
 all :$(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
-clearn:
+clean:
 	$(RM) -f *~ $(NAME)
 oclean:
 	$(RM) -f $(OBJ)
