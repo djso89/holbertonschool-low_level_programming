@@ -18,14 +18,14 @@ int jump_search(int *array, size_t size, int value)
 	{
 		begin = end;
 		end += sqrt(size);
-		if (end > size -1)
+		if (end > size - 1)
 			end = size;
 	}
 
 	for (i = begin; i < end; i++)
 	{
 		if (array[i] == value)
-			return i;
+			return (i);
 	}
-	return -1;
+	return (-1);
 }
