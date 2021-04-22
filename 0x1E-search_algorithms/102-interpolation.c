@@ -15,7 +15,7 @@ int interpolation_search(int *array, size_t size, int value)
 	size_t mid;
 	int ahl;
 
-	if !array
+	if (!array)
 		return (-1);
 
 	bool arhl = (array[high] != array[low]) ? true : false;
