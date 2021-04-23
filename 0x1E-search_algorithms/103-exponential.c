@@ -41,6 +41,8 @@ int exponential_search(int *array, size_t size, int value)
 	size_t i = 1;
 	size_t mini;
 
+	if (!array || size < 0)
+		return (-1);
 	if (array[0] == value)
 		return (0);
 
